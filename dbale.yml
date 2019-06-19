@@ -1,0 +1,33 @@
+name: dbale
+
+channels:
+  - omnia # cclib
+  - openbabel
+  - pytorch
+  - bjodah # chempy
+  - rdkit
+
+dependencies:
+  # Basics
+  - python=3.5
+  - pip
+  - setuptools
+  - scipy
+  - matplotlib
+  - seaborn
+  - pytest-cov
+  - networkx
+  - mpi4py
+  - sympy
+  - mkl
+  - openblas
+  - boost
+  # Machine Learning
+  - scikit-learn
+  - pytorch
+  - tensorflow
+  # Cheminformatics
+  - openbabel
+  - cclib
+  - chempy
+  - rdkit

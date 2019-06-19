@@ -1,0 +1,41 @@
+# conda env create -f environment.yml
+# conda remove --name myenv --all
+name: omp_mpi
+
+channels:
+  - conda-forge
+
+dependencies:
+  # Python Basics
+  - pip
+  - setuptools
+  # C/C++ Compilers and Related Packages
+  - clang_osx-64
+  - clangxx_osx-64
+  - mpich
+  - cmake
+  - mpi4py
+  - eigen
+  - blas
+  - mkl
+  - scalapack
+  - lapack
+  - boost
+  - xeus-cling
+  - xtensor
+  - xtensor-blas
+  # Common Python Modules
+  - numpy
+  - scipy
+  - matplotlib
+  - seaborn
+  - pytest-cov
+  - networkx
+  - sympy
+  - h5py
+  - jupyter
+  - cython
+  - plotly
+  # Other
+  - htop
+  - yapf
