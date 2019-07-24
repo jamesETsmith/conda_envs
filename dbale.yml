@@ -3,9 +3,6 @@ name: dbale
 channels:
   - omnia # cclib
   - openbabel
-  - pytorch
-  - bjodah # chempy
-  - rdkit
 
 dependencies:
   # Basics
@@ -20,14 +17,9 @@ dependencies:
   - mpi4py
   - sympy
   - mkl
-  - openblas
   - boost
   # Machine Learning
   - scikit-learn
-  - pytorch
-  - tensorflow
   # Cheminformatics
   - openbabel
   - cclib
-  - chempy
-  - rdkit

@@ -16,14 +16,10 @@ dependencies:
   - cmake
   - mpi4py
   - eigen
-  - blas
   - mkl
   - scalapack
   - lapack
   - boost
-  - xeus-cling
-  - xtensor
-  - xtensor-blas
   # Common Python Modules
   - numpy
   - scipy
@@ -35,7 +31,7 @@ dependencies:
   - h5py
   - jupyter
   - cython
-  - plotly
   # Other
   - htop
-  - yapf
+  - black
+  - pylint
