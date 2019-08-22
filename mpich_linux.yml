@@ -1,23 +1,20 @@
 # conda env create -f environment.yml
 # conda remove --name myenv --all
-name: omp_mpi
+name: mpich
 
 channels:
   - conda-forge
-
+  
 dependencies:
   # Python Basics
   - pip
   - setuptools
   # C/C++ Compilers and Related Packages
+  - gcc_linux-64
   - gxx_linux-64
   - mpich
   - cmake
   - mpi4py
-  - eigen
-  - mkl
-  - scalapack
-  - lapack
   # Common Python Modules
   - numpy
   - scipy
