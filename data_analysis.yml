@@ -1,0 +1,17 @@
+# conda env create -f environment.yml
+# conda remove --name myenv --all
+name: data_analysis
+
+channels:
+    - anaconda
+
+dependencies:
+    - pip
+    - numpy
+    - scipy
+    - matplotlib
+    - seaborn
+    - networkx
+    - sympy
+    - black
+    - pylint
